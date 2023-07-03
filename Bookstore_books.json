@@ -1,0 +1,107 @@
+[{
+  "_id": {
+    "$oid": "648f5c334c221deefb30248f"
+  },
+  "title": "Fundamentos de Programacion",
+  "author": "Luis Joyanes Aguilar",
+  "description": "Algoritmos y estructuras de datos",
+  "price": 1000,
+  "image": "image-1687116851176-367086161.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648f5c894c221deefb302493"
+  },
+  "title": "Programacion Orientada a Objetos en JAVA",
+  "author": "Francisco Blasco",
+  "description": "POO en JAVA",
+  "price": 5000,
+  "image": "image-1687116937135-141356462.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648f5cc44c221deefb302497"
+  },
+  "title": "Fundamentos de Programacion 5ta",
+  "author": "Luis Joyanes Aguilar",
+  "description": "Algoritmos y estructuras de datos",
+  "price": 2000,
+  "image": "image-1687116996585-786088430.jpeg",
+  "__v": 0,
+  "category": "Programacion WEB"
+},{
+  "_id": {
+    "$oid": "648f5d1e4c221deefb30249b"
+  },
+  "title": "El lenguaje de programacio C",
+  "author": "Kernighan & Ritchie",
+  "description": "C",
+  "price": 5000,
+  "image": "image-1687117086871-302681998.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648f5d5d4c221deefb30249f"
+  },
+  "title": "Fundamentos de Programacion",
+  "author": "Luis Joyanes Aguilar, Luis Rodriguez, Martinez Fernandez",
+  "description": "Libro de problemas",
+  "price": 2000,
+  "image": "image-1687117149390-641442433.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648f5da94c221deefb3024a3"
+  },
+  "title": "Logica de programacion",
+  "author": "Omar Ivan Trejos",
+  "description": "Logica en la Programacion",
+  "price": 1500,
+  "image": "image-1687117225594-175044033.jpeg",
+  "__v": 0,
+  "category": "Programacion"
+},{
+  "_id": {
+    "$oid": "648f5e114c221deefb3024a7"
+  },
+  "title": "Curso de programacion PYTHON",
+  "author": "Arturo Montejo Raez, Salud Maria Jimenez Zafra",
+  "description": "Todo lo basico en Python",
+  "price": 1800,
+  "image": "image-1687117329176-224886738.jpeg",
+  "__v": 0,
+  "category": "Programacion en Python"
+},{
+  "_id": {
+    "$oid": "648f5e444c221deefb3024ab"
+  },
+  "title": "Fundamentos de Programacion en C/C++ con ejemplos",
+  "author": "Ernesto Peñaloza Romero",
+  "description": "C/C++",
+  "price": 6000,
+  "image": "image-1687117380461-643098080.jpeg",
+  "__v": 0,
+  "category": "Programacion WEB2"
+},{
+  "_id": {
+    "$oid": "64a3110d00dbbcbb9786cb95"
+  },
+  "title": "JAVA 8",
+  "author": "Roguer Candedhead",
+  "description": "Programacion",
+  "price": 9000,
+  "image": "image-1688408333413-594572634.jpg",
+  "__v": 0,
+  "category": "Programacion"
+},{
+  "_id": {
+    "$oid": "64a31896b02f20f130cecb2f"
+  },
+  "title": "Rasperry PI",
+  "author": "Joe Grant",
+  "description": "Programacion en Raspery PI",
+  "category": "Electronica y Programacion",
+  "price": 10000,
+  "image": "image-1688410262909-599452868.jpeg",
+  "__v": 0
+}]
