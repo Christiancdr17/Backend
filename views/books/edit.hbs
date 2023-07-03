@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <title>{{title}}</title>
+</head>
+<body class="">
+  <h1 class="text-center">Ingrese los nuevos datos del Libro Corregido..</h1>
+
+  <section class="container">
+    <form action="/books/{{book._id }}" method="post">
+    <div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="book[title]" placeholder="Titulo" value="{{book.title}}">
+  <label for="floatingInput">Nuevo Titulo</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="book[author]" placeholder="" value="{{book.author}}">
+  <label for="floatingInput">Nuevo Autor</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="book[category]" placeholder="" value="{{book.category}}">
+  <label for="floatingInput">Nueva Categoria</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="book[description]" placeholder="" value="{{book.description}}">
+  <label for="floatingInput">Nueva Descripcion</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="book[price]" value="{{book.price}}">
+  <label for="floatingInput">Nuevo Precio</label>
+</div>
+<div class="text-center">
+<button type="submit" class="btn btn-warning">Actualizar Libro</button>
+</div>
+</form>
+<a href="/books" type="button" class="btn btn-success">Volver al listado de productos</a>
+
+</section>
+<script src="/assets/js/bootstrap.js"></script>
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

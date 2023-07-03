@@ -1,0 +1,90 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <title>Ingrese el nuevo libro</title>
+  </head>
+  <body>
+    <h1 class="text-center">Ingrese los datos del nuevo Libro</h1>
+    <section class="container">
+      <form class="form-floating" action="/books" method="post" enctype="multipart/form-data">
+        <div class="form-floating mb-3">
+
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            name="book[title]"
+            required
+            placeholder="Titulo del Libro"
+            value=""
+          />
+          <label for="title">Ingrese el titulo</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="author"
+            name="book[author]"
+            required
+            placeholder="Titulo del Libro"
+            value=""
+          />
+          <label for="author">Autor</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="description"
+            name="book[description]"
+            required
+            placeholder="Descripcion"
+            value=""
+          />
+          <label for="description">Descripcion</label>
+        </div>
+
+        <div class="form-floating mb-3">
+
+          <input
+            type="text"
+            class="form-control"
+            id="price"
+            name="book[price]"
+            required
+            placeholder="Precio"
+            value=""
+          />
+          <label for="price">Precio</label>
+        </div>
+
+        <div class="form-floating mb-3">
+
+          <input
+            type="file"
+            class="form-control"
+            id="image"
+            name="image"
+            required
+            placeholder="Titulo del Libro"
+            value=""
+          />
+          <label for="image">Portada</label>
+        </div>
+         <div class="text-center">
+    <button class="btn btn-primary" type="submit">Cargar libro</button>
+  </div>
+
+      </form>
+
+<a href="/books" type="button" class="btn btn-success">Volver al listado de productos</a>
+    </section>
+    <script src="/assets/js/bootstrap.js"></script>
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

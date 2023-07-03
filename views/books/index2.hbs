@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+  <title>Lista de Libros </title>
+</head>
+<body>
+  <h1  class="text-center">Lista de libros</h1>
+  <div class="d-grid gap-2">
+  <a class="btn btn-primary" type="button" href="/books/new">Nuevo Libro</a>
+  
+</div>
+  
+  <table class="table table-dark table-striped-columns">
+   <thead>
+    <tr>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Autor</th>
+      <th>Año de publicación</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each books}}
+    <tr>
+      {{!-- <td> <button><a href="">Ver datos</button></td> --}}
+      <td><button class="btn btn-primary" type="button" onclick="window.location.href='/books/{{_id}}'">Ir</button></td>
+
+      <td>{{this.name}}</td>
+      <td>{{this.description}}</td>
+      <td>{{this.price}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+</body>
+</html>
