@@ -11,7 +11,8 @@ class EmailController {
       const email = new EmailModel(from, to, subject, message);
 
       const transporter = nodemailer.createTransport({
-        service: 'gmail',
+        host: 'smtp.ethereal.email',
+        port: 587,
         auth: {
           user: process.env.EMAIL_USER,
           pass: process.env.EMAIL_PASSWORD
@@ -27,7 +28,7 @@ class EmailController {
 
       await transporter.sendMail(mailOptions);
 
-      res.redirect('/success');
+      res.render('success');
     } catch (error) {
       console.error(error);
       res.redirect('/error');
@@ -38,9 +39,7 @@ class EmailController {
     res.render('mailer');
   }
 
-  success(req, res) {
-    res.send('¡Correo electrónico enviado exitosamente!');
-  }
+  
 
   error(req, res) {
     res.send('¡Error al enviar el correo electrónico!');
